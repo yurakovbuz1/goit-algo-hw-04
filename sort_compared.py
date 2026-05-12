@@ -99,10 +99,10 @@ time_sorted_reversed = timeit.timeit(
 
 
 
-print(f"\nMerge sort tests:\nRandom array: {time_merge_random}s\n"
+print(f"\nMerge sort test results:\nRandom array: {time_merge_random}s\n"
       + f"Sorted array: {time_merge_sorted}s\nReversed array: {time_merge_reversed}s\n")
-print(f"Insertion sort tests:\nRandom array: {time_insertion_random}s\n"
+print(f"Insertion sort test results:\nRandom array: {time_insertion_random}s\n"
       + f"Sorted array: {time_insertion_sorted}s\nReversed array: {time_insertion_reversed}s\n")
-print(f"Timsort sort tests:\nRandom array: {time_sorted_random}s\n"
+print(f"Timsort sort test results:\nRandom array: {time_sorted_random}s\n"
       + f"Sorted array: {time_sorted_sorted}s\nReversed array: {time_sorted_reversed}s\n")
-print("Conclusion:\nBased on the results, Timsort (which is used in Python by default) is most efficient in all three cases.\n At the same time the results show that Merge sort is a number of times more efficient compared to Insertion sort except for the case with an already sorted array, as it still needs to divide the subsets and merge them back.")
+# print("Conclusion:\nBased on the results, Timsort (which is used in Python by default) is most efficient in all three cases.\n At the same time the results show that Merge sort is a number of times more efficient compared to Insertion sort except for the case with an already sorted array, as it still needs to divide the subsets and merge them back.")
